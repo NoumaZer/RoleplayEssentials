@@ -1,0 +1,38 @@
+general:
+  ask_if_you_were_freekilled: true
+  join_message: §8[§a+§8] §7§PLAYER woke up!
+  quit_message: §8[§c-§8] §7§PLAYER fell asleep!
+  motd:
+    1: §f§lRoleplay §b§lEssentials §7v1.0
+    2: §6Join us now ! §7https://discord.gg/Hx393nu
+
+message:
+  prefix: §6RPE §7»§r
+
+  wrong_usage: §cWrong usage!
+  wrong_user: §cOnly a player can use this!
+  name_changed: §aYour name has been set!
+  item_already_owned: §cYou already have it!
+  nobody_found: §cNobody is around you!
+
+  payday: §cPAYDAAAY! §eYou've just received §SALARY! §rGood work, continue like that.
+
+chat:
+  rp:
+    radius: 20.0
+    chat_format: §7Someone just said §f§MESSAGE
+    use_holograms: true
+  ooc:
+    prefix: '!'
+    chat_format: §8OOC | §7§PLAYER §8» §7§MESSAGE
+  advert:
+    chat_format: §7Advert | §8§PLAYER » §f§MESSAGE
+
+jobs:
+  payday: 10
+  citizen:
+    salary: 10
+    default: true
+
+death:
+  force_respawn: true
