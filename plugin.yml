@@ -1,0 +1,29 @@
+name: RoleplayEssentials
+version: 0.2
+main: me.nouma.rpe.Main
+softdepend: [Skript, Vault]
+
+commands:
+  rpe:
+    aliases: [roleplayessentials, rpessentials]
+  ooc:
+    aliases: [hrp]
+    usage: "§8Correct usage: §c/ooc <message>"
+  rp:
+    usage: "§8Correct usage: §c/rp <message>"
+  joblist:
+  jobinfo:
+  playerlist:
+
+permissions:
+  rpe.*:
+    default: op
+  rpe.reload.*:
+    default: op
+    children: [rpe.*]
+  rpe.reload.use:
+    default: op
+    children: [rpe.reload.*]
+  rpe.reload.bypass_kick:
+    default: op
+    children: [rpe.reload.*]
